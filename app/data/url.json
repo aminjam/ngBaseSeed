@@ -1,0 +1,14 @@
+{
+  "domains": {
+    "profile": "http://localhost:1337",
+    "data": "http://api.data"
+  },
+  "endpoints":{
+    "profile":{
+      "signup":{
+        "method": "POST",
+        "url":"/account/anon/signup"
+      }
+    }
+  }
+}
