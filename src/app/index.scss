@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
+
+html {
+  font-family: 'Roboto Slab', serif;
+
+}
+[layout=row] {
+  flex-direction: row;
+
+}
+.background {
+  background-image: -o-linear-gradient(left bottom, #FFE47A 19%, #FF8454 100%);
+  background-image: -webkit-linear-gradient(left bottom, #FFE47A 19%, #FF8454 100%);
+  background-image: linear-gradient(to left bottom, #FFE47A 19%, #FF8454 100%);
+}
+.svg-ic_24px {
+  width: 24px;
+  height: 24px;
+
+}
+.inline-block {
+  display: inline-block;
+
+}
+.bg-inherit {
+  background: inherit !important;
+
+}
+.margin-less {
+  margin: 0;
+
+}
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+
+}
+.thumbnail {
+  height: 200px;
+
+  img.pull-right {
+    width: 50px;
+  }
+
+}
+md-toolbar.md-default-theme {
+  background-color: black;
+
+}
+section.jumbotron {
+  margin-bottom: 30px;
+  padding: 1px 30px;
+  background-color: #5aadbb;
+  text-align: center;
+
+  color: white;
+
+  h1 {
+    font-size: 3em;
+  }
+
+}
+.techs {
+  display: flex;
+  flex-flow: row wrap;
+
+  md-card {
+    width: 30%;
+
+    img.pull-right {
+      float: right;
+      width: 50px;
+    }
+  }
+
+}
+// injector
+// endinjector
