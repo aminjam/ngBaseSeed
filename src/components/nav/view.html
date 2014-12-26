@@ -1,0 +1,40 @@
+<md-content class="md-padding bg-inherit">
+  <div layout="row" layout-align="space-between center" ng-click="vm.menu()">
+    <div>
+      <h1 hide-sm class="inline-block margin-less">MY SITE</h1>
+      <h2 hide-gt-sm class="inline-block margin-less">MY SITE</h2>
+    </div>
+    <div class="icon icon-navigation-black icon-navigation-black-ic_menu_black_24dp"></div>
+  </div>
+
+</md-content>
+<md-sidenav class="md-sidenav-right" md-component-id="right">
+  <md-toolbar class="md-theme-light">
+    <h1 class="md-toolbar-tools">Menu</h1>
+  </md-toolbar>
+  <md-content class="md-padding">
+    <md-button ng-click="vm.close()" class="md-primary md-hue-3">
+      Close Sidenav Left
+    </md-button>
+    <md-button ng-click="vm.close()" class="md-accent md-hue-1">
+      Close Sidenav Left 2
+    </md-button>
+
+  </md-content>
+</md-sidenav>
+
+<!--
+<md-toolbar layout="row" layout-align="center center">
+
+  <md-button href="https://github.com/Swiip/generator-gulp-angular">Gulp Angular</md-button>
+
+  <section flex layout="row" layout-align="left center">
+    <md-button href="#" class="md-raised">Home</md-button>
+    <md-button href="#" class="md-raised">About</md-button>
+    <md-button href="#" class="md-raised">Contact</md-button>
+  </section>
+
+  <md-button href="#">Current date: {{ date | date:'yyyy-MM-dd' }}</md-button>
+
+</md-toolbar>
+-->
