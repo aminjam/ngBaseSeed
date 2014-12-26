@@ -21,9 +21,6 @@
   <!-- endinject -->
   <!-- endbuild -->
 
-  <link rel="stylesheet" href="styles/sprite-navigation-black.css">
-  <link rel="stylesheet" href="../bower_components/angular-material/themes/cyan-theme.css" />
-
 
   <!-- build:js scripts/modernizr.js -->
   <script src="../bower_components/modernizr/modernizr.js"></script>
@@ -34,7 +31,7 @@
   <!--[if lt IE 10]>
   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-  <main-nav ng-controller="NavCtrl as vm"></main-nav>
+  <div ng-include="'components/nav/view.html'"></div>
   <div ui-view></div>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -69,13 +66,13 @@
   <!-- build:js({.tmp,src}) scripts/app.js -->
   <!-- inject:js -->
   <script src="app/module.js"></script>
-  <script src="app/main/router.config.js"></script>
-  <script src="app/main/module.js"></script>
-  <script src="app/main/main.ctrl.js"></script>
   <script src="components/nav/navState.factory.js"></script>
   <script src="components/nav/navSetting.provider.js"></script>
   <script src="components/nav/nav.ctrl.js"></script>
   <script src="components/nav/main-nav.js"></script>
+  <script src="app/main/router.config.js"></script>
+  <script src="app/main/module.js"></script>
+  <script src="app/main/main.ctrl.js"></script>
   <script src="app/ngMaterial.theme.config.js"></script>
   <script src="app/app.ctrl.js"></script>
   <!-- endinject -->

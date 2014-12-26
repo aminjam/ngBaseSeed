@@ -9,8 +9,6 @@ html {
 
 }
 .background {
-  background-image: -o-linear-gradient(left bottom, #FFE47A 19%, #FF8454 100%);
-  background-image: -webkit-linear-gradient(left bottom, #FFE47A 19%, #FF8454 100%);
   background-image: linear-gradient(to left bottom, #FFE47A 19%, #FF8454 100%);
 }
 .svg-ic_24px {
@@ -77,4 +75,7 @@ section.jumbotron {
 
 }
 // injector
+@import '../components/angular-material/cyan-theme.scss';
+@import '../components/material-design-icons/sprite-navigation-black.scss';
+// endinjectorss';
 // endinjector
